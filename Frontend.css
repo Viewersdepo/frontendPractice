@@ -9,11 +9,15 @@
 nav{
     background-attachment: fixed;
 }
-.tl {
+.textStyle {
     font-family: Arial, Helvetica, sans-serif;
-    font-size:xx-large;
+    font-size:medium;
 }
 #dot {
     list-style-type: none;
     
+}
+
+.bor {
+    border-radius: 90px;
 }
