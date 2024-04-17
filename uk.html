@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>what is it</title>
+      <link rel="stylesheet" href="">
+      <script>
+        var count =0;
+        function repeatSong(){
+          if(count==3)return;
+          document.getElementById("audio").play()
+          count++;
+          // setTimeout("repeatSong"());
+        }
+
+      </script>
+  </head>
+  <body>
+   <audio id="audio" controls src="song.mp3"></audio>
+   <button onclick="repeatSong()">Play Song</button>
+  </body>  
+</html>
